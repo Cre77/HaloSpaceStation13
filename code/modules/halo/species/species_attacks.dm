@@ -7,6 +7,35 @@
 	damage = 15
 	attack_name = "brute punch"
 	
+//	switch(zone)
+		if(BP_HEAD, BP_MOUTH, BP_EYES)
+		
+		user.visible_message(pick(
+						"<span class='danger'>[user] slams \his [pick(attack_noun)] into [target]'s [pick("face", "jaw", affecting.name)]!</span>",
+						"<span class='danger'>[user] smashes \his [pick(attack_noun)] into [target]'s [pick("face", "jaw", affecting.name)]!</span>",
+						"<span class='danger'>[user] backhands [target]'s [pick("face", affecting.name)] with terrible force!</span>",
+						"<span class='danger'>[user] rams [target]'s [pick("skull", "face", affecting.name)] with \his forehead!</span>",
+						))
+		
+		if(BP_CHEST)
+		
+		user.visible_message(pick(
+						"<span class='danger'>[user] beats down wildly on [target]'s [pick("torso", affecting.name)]!</span>",
+						"<span class='danger'>[user] smashes \his [pick(attack_noun)] into [target]'s [pick("face", "jaw", affecting.name)]!</span>",
+						"<span class='danger'>[user] runs shoulder-first into [target]'s [affecting.name] </span>",
+						"<span class='danger'>[user] rams \his skull into [target]'s [pick("face", affecting.name)]!</span>",
+						))
+		
+		else
+		
+		user.visible_message(pick(
+						"<span class='danger'>[user] slams \his [pick(attack_noun)] into [target]'s [affecting.name]!</span>",
+						"<span class='danger'>[user] smashes \his [pick(attack_noun)] into [target]'s [pick("face", "jaw", affecting.name)]!</span>",
+						"<span class='danger'>[user] backhands [target]'s [pick("face", affecting.name)] with terrible force!</span>",
+						"<span class='danger'>[user] rams \his skull into [target]'s [pick("face", affecting.name)]!</span>",
+						))
+
+	//
 	
 /datum/unarmed_attack/stomp/brute_stomp
 	attack_verb = list("stomped on", "smashed down on", "trampled")

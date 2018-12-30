@@ -10,6 +10,7 @@
 	blood_color = "#4A4A64" //Same blood colour as Elites.
 	icobase = 'code/modules/halo/icons/species/r_kig-yar.dmi' //The DMI needed modification to fit the usual format (see other species' dmis)
 	deform = 'code/modules/halo/icons/species/r_kig-yar.dmi'
+	unarmed_types = list(/datum/unarmed_attack/kig-yar_punch, /datum/unarmed_attack/kig-yar_stomp, /datum/unarmed_attack/kig-yar_bite)
 	default_language = "Sangheili" //Just for now, no special language just yet
 	language = "Sangheili"
 	secondary_langs = list("Ruuhti")
@@ -69,6 +70,7 @@
 		because they have an expanded voice chamber in their throat. Skirmishers serve as Covenant shock troopers \
 		and close-range combatants, attacking in packs and using flanking tactics. Kig'Yar feud with Unggoy for \
 		status as the lowest ranked members of the Covenant."
+	unarmed_types = list(/datum/unarmed_attack/kig-yar_punch, /datum/unarmed_attack/kig-yar_stomp, /datum/unarmed_attack/kig-yar_bite)
 	default_language = "Sangheili"
 	language = "Sangheili"
 	secondary_langs = list("Tvoai")

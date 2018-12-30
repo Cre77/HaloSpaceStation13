@@ -43,7 +43,7 @@
 	damage = 5
 	attack_name = "grunt bite"
 	
-/datum/unarmed_attack/kig-yar_slash
+/datum/unarmed_attack/jackal_punch
 	attack_verb = list("scratched", "clawed", "slashed")
 	attack_noun = list("claws")
 	eye_attack_text = "claws"
@@ -51,20 +51,20 @@
 	sharp = 1
 	edge = 1
 	damage = 5 
-	attack_name = "kig-yar slash"
+	attack_name = "jackal punch"
 	
-/datum/unarmed_attack/stomp/kig-yar_stomp
+/datum/unarmed_attack/stomp/jackal_stomp
 	attack_verb = list("stomped", "nastily kicked")
-	attack_name = "kig-yar stomp"
+	attack_name = "jackal stomp"
 	damage = 5
 	
-/datum/unarmed_attack/bite/kig-yar_bite
+/datum/unarmed_attack/bite/jackal_bite
 	attack_verb = list("bit", "chomped down on", "bitten into")
 	attack_sound = 'sound/weapons/bite.ogg'
 	sharp = 1
 	edge = 1
 	damage = 6
-	attack_name = "kig-yar bite"
+	attack_name = "jackal bite"
 	
 /datum/unarmed_attack/elite_punch
 	attack_verb = list("punched", "palmstruck", "jabbed")
@@ -108,23 +108,23 @@
 	damage = 12
 	attack_name = "spartan bite"
 	
-/datum/unarmed_attack/sanshyuum_punch
+/datum/unarmed_attack/prophet_punch
 	attack_verb = list("thrown a feeble punch at", "slapped", "struck")
 	attack_noun = list("withered hand")
 	eye_attack_text = "digits"
 	eye_attack_text_victim = "wrinkly digits"
 	damage = 2
-	attack_name = "sanshyuum punch"
+	attack_name = "prophet punch"
 	
-/datum/unarmed_attack/stomp/sanshyuum_stomp
+/datum/unarmed_attack/stomp/prophet_stomp
 	attack_verb = list("weakly kicked", "stamped on")
-	attack_name = "sanshyuum stomp"
+	attack_name = "prophet stomp"
 	damage = 2
 	
-/datum/unarmed_attack/bite/sanshyuum_bite
+/datum/unarmed_attack/bite/prophet_bite
 	attack_verb = list("nibbled", "scraped their teeth on")
 	attack_sound = 'sound/weapons/bite.ogg'
 	sharp = 1
 	edge = 1
 	damage = 2
-	attack_name = "sanshyuum bite"
+	attack_name = "prophet bite"

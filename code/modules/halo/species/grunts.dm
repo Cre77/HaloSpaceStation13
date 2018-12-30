@@ -11,6 +11,7 @@
 	blood_color = "#4A4A64" //Same blood colour as Elites.
 	icobase = 'code/modules/halo/icons/species/r_unggoy.dmi'
 	deform = 'code/modules/halo/icons/species/r_unggoy.dmi'
+	unarmed_types = list(/datum/unarmed_attack/grunt_punch, /datum/unarmed_attack/grunt_stomp, /datum/unarmed_attack/grunt_bite)
 	default_language = "Sangheili" //Just for now, no special language just yet
 	language = "Sangheili"
 	secondary_langs = list("Balahese")

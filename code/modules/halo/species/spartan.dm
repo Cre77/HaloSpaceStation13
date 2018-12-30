@@ -10,6 +10,7 @@
 	icobase = 'code/modules/halo/icons/species/r_Augmented_Human.dmi' //The DMI needed modification to fit the usual format (see other species' dmis)
 	deform = 'code/modules/halo/icons/species/r_Augmented_Human.dmi'
 	icon_template = 'code/modules/halo/icons/species/r_Augmented_Human_template.dmi'
+	unarmed_types = list(/datum/unarmed_attack/spartan_punch, /datum/unarmed_attack/spartan_stomp, /datum/unarmed_attack/spartan_bite)
 	flags = NO_MINOR_CUT
 	total_health = 250 //Same base health as sangheili
 	spawn_flags = SPECIES_CAN_JOIN

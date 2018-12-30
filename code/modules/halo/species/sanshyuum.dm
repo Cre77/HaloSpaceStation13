@@ -16,6 +16,7 @@ GLOBAL_LIST_INIT(sanshyuum_titles, world.file2list('code/modules/halo/species_it
 	icobase = 'code/modules/halo/icons/species/r_sanshyuum.dmi' //The DMI needed modification to fit the usual format (see other species' dmis)
 	deform = 'code/modules/halo/icons/species/r_sanshyuum.dmi'
 	icon_template = 'code/modules/halo/icons/species/sanshyuum_template.dmi'
+	unarmed_types = list(/datum/unarmed_attack/prophet_punch, /datum/unarmed_attack/prophet_stomp, /datum/unarmed_attack/prophet_bite)
 	default_language = "Sangheili"
 	language = "Sangheili"
 	secondary_langs = list("Janjur Qomi")

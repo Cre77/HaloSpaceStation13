@@ -70,7 +70,7 @@
 		because they have an expanded voice chamber in their throat. Skirmishers serve as Covenant shock troopers \
 		and close-range combatants, attacking in packs and using flanking tactics. Kig'Yar feud with Unggoy for \
 		status as the lowest ranked members of the Covenant."
-	unarmed_types = list(/datum/unarmed_attack/kig-yar_punch, /datum/unarmed_attack/kig-yar_stomp, /datum/unarmed_attack/kig-yar_bite)
+	unarmed_types = list(/datum/unarmed_attack/jackal_punch, /datum/unarmed_attack/jackal_stomp, /datum/unarmed_attack/jackal_bite)
 	default_language = "Sangheili"
 	language = "Sangheili"
 	secondary_langs = list("Tvoai")

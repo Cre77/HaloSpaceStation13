@@ -13,6 +13,7 @@
 	icobase = 'code/modules/halo/icons/species/jiralhanae_mob.dmi' //The DMI needed modification to fit the usual format (see other species' dmis)
 	deform = 'code/modules/halo/icons/species/jiralhanae_mob.dmi'
 	icon_template = 'code/modules/halo/icons/species/jiralhanae_template.dmi'
+	unarmed_types = list(/datum/unarmed_attack/brute_punch, /datum/unarmed_attack/brute_stomp, /datum/unarmed_attack/brute_bite)
 	default_language = "Sangheili"
 	language = "Sangheili"
 	secondary_langs = list("Doisacci")

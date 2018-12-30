@@ -11,6 +11,7 @@
 	icobase = 'code/modules/halo/icons/species/r_elite.dmi' //The DMI needed modification to fit the usual format (see other species' dmis)
 	deform = 'code/modules/halo/icons/species/r_elite.dmi'
 	icon_template = 'code/modules/halo/icons/species/Sangheili_template.dmi'
+	unarmed_types = list(/datum/unarmed_attack/elite_punch, /datum/unarmed_attack/elite_stomp, /datum/unarmed_attack/elite_bite)
 	default_language = "Sangheili"
 	language = "Sangheili"
 	flags = NO_MINOR_CUT
